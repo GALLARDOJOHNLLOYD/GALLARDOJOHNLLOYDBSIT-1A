@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Organic Meat Options</title>
+    <link rel="stylesheet" href="style.css">
+
+ 
+</head>
+<body>
+   <center>
+    <div class="logo">
+        <h1>Organic Meat Options</h1>
+    <img src="logo.png"  class="leaf" alt="logo" width="30px">
+    </div>
+    <h2><i>Pleased to meat you!</i></h2>
+    <div class="text">We offer fresh and good quality meats! Order now!</div>
+
+    <div class="button container">
+        <button id="homepage">HOMEPAGE</button>
+        <button id="products">PRODUCTS</button>
+        <button id="exit">EXIT</button>
+    </div>
+    </center>
+    <script>
+        document.getElementById('homepage').onclick =function() {
+            location.href = "Home.html";
+        }
+        document.getElementById('products').onclick =function() {
+            location.href = "Product.html";
+        }
+        document.getElementById("exit").addEventListener("click", function() {
+    window.location.href = "https://www.google.com"; 
+});
+    </script>
+</body>
+</html>

@@ -1,0 +1,324 @@
+
+
+   
+   .logo{
+       background-color:orange;
+       width: 400px;
+       height: 40px;
+       border-radius: 25px;
+       margin-bottom: 50px;
+   }
+   .leaf{
+       position: relative;
+       bottom: 55px;
+       left: 175px
+   }
+   body{
+       background-color: rgb(240, 218, 177);
+   }
+   button{
+       cursor: pointer;
+       position: relative;
+       top: 50px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin: 20px;
+       width: 250px;
+       background-color:grey;
+       border: none;
+       border-radius: 20px;
+       padding: 15px;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 15px;
+       color: white;
+   }
+   .text{
+       font-size: 20px;
+       font-family: Arial, Helvetica, sans-serif;
+       color: grey;
+   }
+   h2{
+       color: grey;
+   }
+   a:hover{
+       color: tomato;
+   }
+   button:hover{
+       color: tomato;
+   }
+
+    .logo{
+        background-color: orange;
+        width: 400px;
+        height: 40px;
+        border-radius: 25px;
+        margin-bottom: 50px;
+        top: 0px;
+        bottom: 0px;
+    }
+    .leaf{
+        position: relative;
+        bottom: 55px;
+        left: 175px
+    }
+    a{
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 20px;
+        margin: 40px;
+        
+    }
+    .text{
+        font-family: Arial, Helvetica, sans-serif;
+        color: grey;
+        font-size: 25px;
+
+    }
+    body{
+        background-color: rgb(240, 218, 177);
+    }
+    
+    h2{
+        color: grey;
+    }
+    a:hover{
+        color: tomato;
+    }
+    .img{
+        position: relative;
+        top: 70px;
+        align-items: center;
+    }
+
+    .cool{
+        color:grey;
+        position: relative;
+        top: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .about{
+        position: relative;
+        top:20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: grey;
+    }
+
+    .aboutbody {
+        font-family: Arial, Helvetica, sans-serif;
+        color: grey;
+    }
+
+    .contactbody {
+        font-family: Arial, Helvetica, sans-serif;
+        color: grey;
+    }
+
+    .contact{
+        position: relative;
+        top:20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: grey;
+    }
+    .us{
+        position: relative;
+        top: 150px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: grey;
+    }
+    .pos{
+
+        margin-top: 50px;
+    }
+
+.pork {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:grey;
+    margin-top: 50px;
+}
+
+.tab1 {
+    table-layout: collapse;
+    margin-left: 20px;
+    border-collapse: separate;
+    position:relative;
+}
+
+.td1 {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+.pork1 {
+    content: url(loin.jpg);
+    width: 300px;
+    transition: transform 1s;
+    cursor: pointer;
+    border-radius: 3px;
+   
+}
+
+.pork2 {
+    content: url(porkbelly.jpg);
+    width: 300px;
+    height: 200px;
+    transition: transform 1s;
+    cursor: pointer;
+    border-radius: 3px;
+    
+}
+
+.pork3 {
+    content: url(porkthigh.jpg);
+    width: 300px;
+    transition: transform 1s;
+    cursor: pointer;
+    border-radius: 3px;
+    
+}
+
+.td2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    color: grey;
+    padding: 10px;
+}
+
+.price {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    padding: 10px;
+    color: grey;
+}
+
+.chicken {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:grey;
+    margin-top: 50px;
+}
+
+.tab2 {
+    table-layout: collapse;
+    margin-left: 20px;
+    border-collapse: separate;
+    position:relative;
+}
+
+.td3 {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
+.chicken1 {
+    content: url(wings.jpg);
+    width: 300px;
+    height: 250px;
+    transition: transform 1s;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.chicken2 {
+    content: url(chickenthighs.jpg);
+    width: 300px;
+    height: 250px;
+    transition: transform 1s;
+    cursor: pointer;
+    border-radius: 3px; 
+}
+
+.chicken3 {
+    content: url(breast.jpg);
+    width: 300px;
+    height: 250px;
+    transition: transform 1s;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.td4 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    padding: 10px;
+    color: grey;
+}
+
+.price2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    padding: 10px;
+    color: grey;
+}
+
+.beef {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:grey;
+    margin-top: 50px;
+}
+
+.tab3 {
+    table-layout: collapse;
+    margin-left: 20px;
+    border-collapse: separate;
+    position:relative;
+}
+
+.td5 {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
+.beef1{
+    content: url(beefloin.jpg);
+    width: 300px;
+    height: 250px;
+    transition: transform 1s;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.beef2{
+    content: url(beefrib.jpg);
+    width: 300px;
+    height: 250px;
+    transition: transform 1s;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.beef3{
+    content: url(chuckbeef.jpg);
+    width: 300px;
+    height: 250px;
+    transition: transform 1s;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.td6 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    color: grey;
+    padding: 10px;
+}
+
+.price3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    border-collapse: collapse;
+    padding: 10px;
+}
